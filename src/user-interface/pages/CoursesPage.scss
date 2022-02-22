@@ -1,0 +1,58 @@
+.course-card {
+	border: 1px solid black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/* css style for section #courses */
+#courses .card-text-container {
+    min-height: 110px;
+}
+
+#courses .btn-showmore {
+    color: #000;
+    text-decoration: none;
+    float: right;
+}
+#courses .btn-showmore:active {
+    color: #0a7eba;
+}
+#courses .btn-showmore:hover {
+    color: #0587cb;
+}
+
+#courses .text-grey {
+    color: #b9babb;
+    font-size: 14px;
+}
+/* Styles for wrapping the search box */
+
+.main {
+    width: 97%;
+    margin: 16px auto;
+}
+.bg-grey{
+    background-color: #d8dce1;
+}
+.logo-height{
+    height: 26px;
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}

@@ -1,0 +1,29 @@
+.course-card {
+	border: 1px solid black;
+}
+.course-card {
+	border: 1px solid black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/* css style for section #courses */
+#courses .card-text-container {
+    min-height: 110px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#courses .btn-showmore {
+    color: #000;
+    text-decoration: none;
+}
+
+#courses .btn-showmore:hover {
+    color: #0587cb;
+}
+
+#courses .text-grey {
+    color: #b9babb;
+}

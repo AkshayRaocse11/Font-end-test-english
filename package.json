@@ -1,0 +1,56 @@
+{
+  "name": "testembauchefesto",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "-": "0.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.67",
+    "@types/react": "^16.9.52",
+    "@types/react-dom": "^16.9.8",
+    "bootstrap": "^4.3.1",
+    "jquery": "3.4.1",
+    "local-cors-proxy": "^1.1.0",
+    "no-cors-proxy": "^1.0.5",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-app-polyfill": "1.0.1",
+    "react-bootstrap": "^2.1.2",
+    "react-bootstrap-icons": "^1.7.2",
+    "react-dom": "^16.14.0",
+    "react-multi-carousel": "^2.8.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.3",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "4.3.0",
+    "@types/jquery": "3.3.29",
+    "@types/react-router-dom": "4.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "proxy": "lcp --proxyUrl https://lx.festo.com",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
